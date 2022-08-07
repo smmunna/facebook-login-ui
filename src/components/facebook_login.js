@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function facebook_login() {
+    let date = new Date();
+    let year = date.getFullYear();
   return (
     <div>
       {/* For Heading and Login Form */}
@@ -56,7 +58,7 @@ export default function facebook_login() {
                   >
                     Create a page
                   </a>{" "}
-                  for celebrity, brand or business.
+                  for celebrity, brand or business. Sm Munna {year}&copy;
                 </p>
               </div>
             </div>

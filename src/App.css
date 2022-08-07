@@ -97,30 +97,87 @@
 
 
 /* CSS For Responsive */
-
-
- /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-
-
- }
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) { 
+  .extralink{
+    margin-top: 18rem;
+  }
+}
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .box1{
+    padding: 240px 0 0 70px;
+  }
+  .extralink{
+    margin-top: 19rem;
+  }
+}
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+  .App{
+    height: 850px;
+    width: 990px;
+  }
+  .box1{
+    padding: 200px 0 0 110px;
+  }
+  .row-box2{
+    margin-top: 22px;
+    margin-left: 2rem;
+  }
+  .extralink{
+    margin-top: 25rem;
+  }
+  .create-page-link{
+    font-size: 21px;
+    margin-left: 2rem;
+  }
+}
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-  
- }
+  .App{
+    height: 800px;
+    width: 800px;
+  }
+  .box1{
+    padding: 100px 0 0 40px;
+  }
+  .row-box2{
+    margin-top: 22px;
+    margin-left: 2rem;
+  }
+  .extralink{
+    margin-top: 25rem;
+  }
+  .create-page-link{
+    font-size: 20px;
+    margin-left: 2rem;
+  }
+}
 
- /* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .App{
+    height: 1400px;
+    width: 800px;
+  }
+  .box1{
+    padding: 234px 0 0 100px;
+  }
+  .sub-heading-facebook{
+    font-size: 30px;
+  }
+  .row-box2{
+    margin-top: 22px;
+    margin-left: 6rem;
+  }
+  .extralink{
+    margin-top: 25rem;
+  }
+  .create-page-link{
+    font-size: 25px;
+    margin-left: 2rem;
+  }
 
- }
-
-/* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-  
- }
-
- /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { 
-  
  }
