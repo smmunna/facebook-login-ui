@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.App{
+  height: 100vh;
+  width: 100%;
+  background-color: #F0F2F5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* After the container box1 class */
+.box1{
+  position: relative;
+  padding: 234px 0 0 234px;
+}
+.heading-facebook{
+  color: #1877F2;
+  font-size: 51px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sub-heading-facebook{
+  color: #1C1E21;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+/* column two working procedures */
+.row-box2{
+  height: 343px;
+  width: 395px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-top: -82px;
+  margin-left: 31px;
+  box-shadow: 0 0 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-data{
+  padding: 16px 15px 22px 16px;
 }
+.input{
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(156, 150, 150);
+}
+.input:hover{
+  border: 2px solid #1877F2;
+}
+.btn{
+ width: 100%;
+ margin-bottom: 13px;
+}
+.fgp{
+  margin-left: 114px;
+  text-decoration: none;
+  margin-bottom: 24px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#login{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.fgp:hover{
+  text-decoration:underline;
+}
+.create-account{
+  background-color: #42B72A;
   color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-left: 80px;
+  border: 3px solid rgb(253, 250, 250);
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* CSS For Responsive */
+
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+ }
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  
+ }
+
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  
+ }
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+  
+ }
