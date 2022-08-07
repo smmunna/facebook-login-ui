@@ -30,7 +30,8 @@
   margin-top: -82px;
   margin-left: 31px;
   border-radius: 10px;
-  box-shadow: 0 0 5px;
+  border: 3px solid rgb(241, 234, 234);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .row-box2:hover{
   transition: 2s;
